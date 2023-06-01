@@ -1,0 +1,71 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+input{
+    color: black;
+}
+
+form{
+    width: 500px;
+    margin: 2rem auto;
+    border: 2px solid #38a3a5;
+    border-radius: 29px;
+    padding: 2rem;
+}
+
+label{
+    display: block;
+    padding-top: 15px;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    border: 2px solid #adb5bd;
+    border-radius: 7px;
+    padding: 5px
+}
+
+input:focus{
+    border: 2px solid #38a3a5;
+    transition: 0.3s;
+}
+
+textarea:focus{
+    border: 2px solid #38a3a5;
+    transition: 0.2s;
+}
+
+#sendbtn{
+    border: 0;
+    background-color: #38a3a5;
+    margin: 1rem auto;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    border-radius: 25px;
+    width: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#sendbtn:hover{ 
+    background-color: #4cc9f0;
+    transition: 0.5s;
+}
+
+#everything{
+    width: 60%;
+    margin: 0 auto;
+}
